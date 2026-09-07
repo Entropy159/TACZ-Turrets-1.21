@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "taczturrets:turret"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_turret": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_bars"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_turret"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "taczturrets:turret"
+    ]
+  }
+}

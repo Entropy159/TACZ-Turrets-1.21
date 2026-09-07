@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "dev.entropy159.taczturrets.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AmmoCheckMixin",
+    "BulletProtectionMixin",
+    "InaccuracyMixin",
+    "ShootSoundMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
